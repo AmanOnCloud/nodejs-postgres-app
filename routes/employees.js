@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 var connectionString = "postgress://username:pass@db_host:5432/db_name";
-//var connectionString = " postgress://chetan@synelab1043:Syne1234@synelab1043.postgres.database.azure.com:5432/demo"
+//var connectionString = " postgress://aman@synelab1043:Syne1234@synelab1043.postgres.database.azure.com:5432/demo"
 const client = new Client({
     connectionString: connectionString
 });
